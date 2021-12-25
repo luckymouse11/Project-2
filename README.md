@@ -1,6 +1,6 @@
 # Project 2 - Random Movie Generator
 ##Overview
-The second project of the Software Engineering Immersive was a hackathon style pair programming project. I was paired with @miskhill.
+The second project of the Software Engineering Immersive was a hackathon style pair programming project. I was paired with <a href="https://github.com/miskhill">Gary</a>.
 
 The project has been deployed using Netlify, view the app <a href="https://movieproject2.netlify.app/" target="_blank">here</a>
 
@@ -59,7 +59,10 @@ Following the API documentation, we were able to create a page that displayed th
 
 
 ### Results
-Considering this was the first app I have been a part of using React I was relatively pleased with the result. I felt that understanding how to dig down and retrieve information took significantly more time than ideal, therefore restricting some of the potential functionality of the site.
+Considering this was the first app I developed as a group using React, I was relatively pleased with the result. Functionality-wise, we managed to complete the app design that we identified as our MVP.
+However, understanding how to dig down and retrieve information took significantly more time than ideal which restricted the potential of the site. I was a little disappointed, believing that I should have been able to accomplish more.
+
+
 
 ## Wins/Challenges
 ### Wins
@@ -70,6 +73,7 @@ Considering this was the first app I have been a part of using React I was relat
 ### Challenges
 - Reading and understanding API documentation and how to use it to correctly access and display information. A lot of time was spent working out how to extract information as often the data we were requesting were nested in arrays.
 - Managing time effectively - as this was a 48 hour project it felt very overwhelming at certain points, especially when we hit roadblocks in our code.
+
 
 ## Future Improvements
 - The API includes empty ID's that may have been deleted by either API or a user. In these cases our application would show a blank page. To fix this I would write a function that would force a page rerender in the case that there was no information.
